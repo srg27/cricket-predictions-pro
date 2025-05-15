@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Cricket Predictions Pro</title>
+ <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+ <!-- Navbar -->
+ <nav class="bg-gray-800 p-4 shadow-md flex justify-between items-center">
+ <h1 class="text-2xl font-bold"> Cricket Predictions Pro</h1> 🏏
+ <div class="space-x-4">
+ <a href="#home" class="hover:text-yellow-400">Home</a>
+ <a href="#predictions" class="hover:text-yellow-400">Predictions</a>
+ <a href="#series" class="hover:text-yellow-400">Series</a>
+ <a href="#results" class="hover:text-yellow-400">Results</a>
+ <a href="#contact" class="hover:text-yellow-400">Contact</a>
+ <a href="#indian-schedule" class="hover:text-yellow-400">India Schedule</a>
+ </div>
+ </nav>
+ <main class="p-6 space-y-12">
+ <!-- Home -->
+ <section id="home">
+ <h2 class="text-3xl font-bold mb-4">Welcome to Cricket Predictions Pro</h2>
+ <p class="text-lg text-gray-300">Experience next-level forecasts with our AI-based prediction
+engine for match outcomes, player performances, and more.</p>
+ </section>
+ <!-- Predictions -->
+ <section id="predictions">
+ <h2 class="text-2xl font-semibold mb-4">Predictions</h2>
+ <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+ <div class="bg-gray-800 p-5 rounded-xl shadow hover:shadow-xl transition">
+ <h3 class="text-xl font-bold mb-2">Match Winner</h3>
+ <p class="text-gray-300">India vs Pakistan — Predicted: India</p> 🔮
+ </div>
+ <div class="bg-gray-800 p-5 rounded-xl shadow hover:shadow-xl transition">
+ <h3 class="text-xl font-bold mb-2">Toss Winner</h3>
+ <p class="text-gray-300">India vs Pakistan — Predicted: Pakistan</p> 🔮
+ </div>
+ <div class="bg-gray-800 p-5 rounded-xl shadow hover:shadow-xl transition">
+ <h3 class="text-xl font-bold mb-2">Player of the Match</h3>
+ <p class="text-gray-300">India vs Pakistan — Predicted: Jasprit Bumrah</p> 🔮
+ </div>
+ </div>
+ </section>
+ <!-- Series -->
+ <section id="series">
+ <h2 class="text-2xl font-semibold mb-4">Upcoming Series</h2>
+ <div class="space-y-4">
+ <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+ <p class="text-gray-300"><strong>England Tour of India</strong> — Jan 22–Feb 12, 2025
+(5 T20Is, 3 ODIs) — Status: Scheduled</p>
+ </div>
+ <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+ <p class="text-gray-300"><strong>ICC Champions Trophy</strong> — Feb 19–Mar 9, 2025
+— Status: Scheduled</p>
+ </div>
+ <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+ <p class="text-gray-300"><strong>India Tour of England</strong> — Jun 20–Aug 4, 2025
+(5 Tests) — Status: Scheduled</p>
+ </div>
+ <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+ <p class="text-gray-300"><strong>India Tour of Bangladesh</strong> — Aug 17–31, 2025
+(3 ODIs, 3 T20Is) — Status: Scheduled</p>
+ </div>
+ <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+ <p class="text-gray-300"><strong>West Indies Tour of India</strong> — Oct 2–14, 2025 (2
+Tests) — Status: Scheduled</p>
+ </div>
+ <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+ <p class="text-gray-300"><strong>India Tour of Australia</strong> — Oct 19–Nov 8, 2025
+(3 ODIs, 5 T20Is) — Status: Scheduled</p>
+ </div>
+ <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+ <p class="text-gray-300"><strong>South Africa Tour of India</strong> — Nov 14–Dec 19,
+2025 (2 Tests, 3 ODIs, 5 T20Is) — Status: Scheduled</p>
+ </div>
+ </div>
+ </section>
+ <!-- Results -->
+ <section id="results">
+ <h2 class="text-2xl font-semibold mb-4">Past Predictions & Results</h2>
+ <table class="min-w-full bg-gray-800 rounded-lg overflow-hidden">
+ <thead class="bg-gray-700">
+ <tr>
+ <th class="p-3 text-left">Match</th>
+ <th class="p-3 text-left">Predicted</th>
+ <th class="p-3 text-left">Actual</th>
+ <th class="p-3 text-left">Accuracy</th>
+ <th class="p-3 text-left">Score</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr class="border-b border-gray-700">
+ <td class="p-3">India vs Pakistan</td>
+ <td class="p-3">India</td>
+ <td class="p-3">India</td>
+ <td class="p-3 text-green-400"> 100%</td> ✔
+ <td class="p-3">Won by 7 wickets</td>
+ </tr>
+ </tbody>
+ </table>
+ </section>
+ <!-- Contact -->
+ <section id="contact">
+ <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+ <p class="text-gray-300">Mobile: <a href="tel:+919014415190" class="hover:text-yellow400">+91 90144 15190</a></p>
+ </section>
+ <!-- India Men’s Cricket Schedule -->
+ <section id="indian-schedule" class="mt-10">
+ <h2 class="text-3xl font-bold mb-6"> India Men’s Cricket Schedule - 2025</h2> 🇮🇳
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+ <!-- Australia 5th Test -->
+ <div class="bg-gray-800 p-5 rounded-xl shadow hover:shadow-xl transition">
+ <h3 class="text-xl font-semibold mb-2">Australia vs India (5th Test)</h3>
+ <p class="text-sm text-gray-400">Jan 3–7, 2025 — Australia</p>
+ <p class="mt-2"><strong>Players:</strong> Rohit, Kohli, Bumrah, Gill, Jadeja</p>
+ <p class="mt-2"><strong>Prediction:</strong> India win by 4 wickets</p> 🔮
+ </div>
+ <!-- England tour of India -->
+ <div class="bg-gray-800 p-5 rounded-xl shadow hover:shadow-xl transition">
+ <h3 class="text-xl font-semibold mb-2">England Tour of India</h3>
+ <p class="text-sm text-gray-400">Jan 22–Feb 12, 2025 — India</p>
+ <p class="mt-2"><strong>Players:</strong> Rohit, Suryakumar, Samson, Siraj, Kuldeep</p>
+ <p class="mt-2"><strong>Prediction:</strong> India win T20Is 4–1, ODIs 2–1</p> 🔮
+ </div>
+ <!-- ICC Champions Trophy -->
+ <div class="bg-gray-800 p-5 rounded-xl shadow hover:shadow-xl transition">
+ <h3 class="text-xl font-semibold mb-2">ICC Champions Trophy</h3>
+ <p class="text-sm text-gray-400">Feb 19–Mar 9, 2025 — Pakistan/UAE</p>
+ <p class="mt-2"><strong>Players:</strong> Kohli, Rahul, Bumrah, Hardik, Kuldeep</p>
+ <p class="mt-2"><strong>Prediction:</strong> India reaches Final</p> 🔮
+ </div>
+ <!-- India tour of England -->
+ <div class="bg-gray-800 p-5 rounded-xl shadow hover:shadow-xl transition">
+ <h3 class="text-xl font-semibold mb-2">India Tour of England</h3>
+ <p class="text-sm text-gray-400">Jun 20–Aug 4, 2025 — England</p>
+ <p class="mt-2"><strong>Players:</strong> Rohit, Jaiswal, Shami, Jadeja, Rahul</p>
+ <p class="mt-2"><strong>Prediction:</strong> Series drawn 2–2</p> 🔮
+ </div>
+ <!-- India tour of Bangladesh -->
+ <div class="bg-gray-800 p-5 rounded-xl shadow hover:shadow-xl transition">
+ <h3 class="text-xl font-semibold mb-2">India Tour of Bangladesh</h3>
+ <p class="text-sm text-gray-400">Aug 17–31, 2025 — Bangladesh</p>
+ <p class="mt-2"><strong>Players:</strong> Ishan, Ruturaj, Sundar, Mukesh, Bishnoi</p>
+ <p class="mt-2"><strong>Prediction:</strong> India win ODIs 2–1, T20Is 3–0</p> 🔮
+ </div>
+ <!-- West Indies tour of India -->
+ <div class="bg-gray-800 p-5 rounded-xl shadow hover:shadow-xl transition">
+ <h3 class="text-xl font-semibold mb-2">West Indies Tour of India</h3>
+ <p class="text-sm text-gray-400">Oct 2–14, 2025 — India</p>
+ <p class="mt-2"><strong>Players:</strong> Gill, Jaiswal, Ashwin, Siraj, Bharat</p>
+ <p class="mt-2"><strong>Prediction:</strong> India win 2–0</p> 🔮
+ </div>
+ <!-- India tour of Australia -->
+ <div class="bg-gray-800 p-5 rounded-xl shadow hover:shadow-xl transition">
+ <h3 class="text-xl font-semibold mb-2">India Tour of Australia</h3>
+ <p class="text-sm text-gray-400">Oct 19–Nov 8, 2025 — Australia</p>
+ <p class="mt-2"><strong>Players:</strong> Kohli, SKY, Bumrah, Pandya, Jaiswal</p>
+ <p class="mt-2"><strong>Prediction:</strong> India win T20Is 3–2, lose ODIs 1–2</p> 🔮
+ </div>
+ <!-- South Africa tour of India -->
+ <div class="bg-gray-800 p-5 rounded-xl shadow hover:shadow-xl transition">
+ <h3 class="text-xl font-semibold mb-2">South Africa Tour of India</h3>
+ <p class="text-sm text-gray-400">Nov 14–Dec 19, 2025 — India</p>
+ <p class="mt-2"><strong>Players:</strong> KL Rahul, Shreyas, Axar, Bumrah, Bishnoi</p>
+ <p class="mt-2"><strong>Prediction:</strong> India dominate all formats</p> 🔮
+ </div>
+ </div>
+ </section>
+ </main>
+</body>
+</html>
